@@ -1,0 +1,58 @@
+[
+  {
+    "click_intent": 2,
+    "trust": 2,
+    "brand_fit": 3,
+    "reasoning": "5분 스킨케어는 솔깃한데, 30% 할인 말고 더 솔직한 정보가 있으면 좋을 것 같아.",
+    "persona_name": "가성비 대학생"
+  },
+  {
+    "click_intent": 4,
+    "trust": 3,
+    "brand_fit": 4,
+    "reasoning": "5분 스킨케어라는 점에서 솔깃하고, 30% 할인이라는 파격적인 혜택이 끌리네요. 다만, 브랜드나 제품에 대한 정보가 더 있었다면 훨씬 더 신뢰가 갔을 것 같아요.",
+    "persona_name": "트렌드 얼리어답터"
+  },
+  {
+    "click_intent": 3,
+    "trust": 4,
+    "brand_fit": 3,
+    "reasoning": "첫 구매 할인율이 괜찮아 보이긴 하지만, '5분 스킨케어'라는 말은 좀 더 구체적인 정보가 필요하게 느껴져요.",
+    "persona_name": "프리미엄 지향 직장인"
+  },
+  {
+    "click_intent": 4,
+    "trust": 4,
+    "brand_fit": 4,
+    "reasoning": "육아로 지친 나에게 5분으로 피부 관리가 가능하다는 점과 첫 구매 할인 30%가 매력적이어서 한번 알아보고 싶어요.",
+    "persona_name": "육아맘 실속파"
+  },
+  {
+    "click_intent": 2,
+    "trust": 2,
+    "brand_fit": 3,
+    "reasoning": "5분 스킨케어는 솔깃하지만, 브랜드 정보가 없어 신뢰가 가지 않고 할인율도 흔한 수법 같아 눈길이 잘 가지 않습니다.",
+    "persona_name": "보수적 소비 중년"
+  },
+  {
+    "click_intent": 4,
+    "trust": 3,
+    "brand_fit": 4,
+    "reasoning": "5분 스킨케어라는 말에 솔깃하고, 첫 구매 30% 할인은 가성비형인 제게 매력적이지만, 너무 생소한 브랜드라 조금은 망설여져요.",
+    "persona_name": "얼리 시니어 온라인쇼퍼"
+  },
+  {
+    "click_intent": 2,
+    "trust": 3,
+    "brand_fit": 2,
+    "reasoning": "솔직히 '지친 하루 끝' 이런 말은 좀 올드하고, 5분 스킨케어는 좋긴 한데 30% 할인이 제일 끌리긴 하지만, 광고 같아서 바로 훅 하진 않을 것 같아요.",
+    "persona_name": "Z세대 트렌드세터"
+  },
+  {
+    "click_intent": 2,
+    "trust": 2,
+    "brand_fit": 3,
+    "reasoning": "할인율은 좋은데, 5분 스킨케어가 내일 피부를 어떻게 준비하는지에 대한 구체적인 설명이나 수치가 없어서 의심스럽다.",
+    "persona_name": "실용주의 자영업자"
+  }
+]
