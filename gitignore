@@ -1,0 +1,29 @@
+# 환경변수 / 시크릿 (가장 중요 — DATABASE_URL, GEMINI_API_KEY 등)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 테스트/캐시
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 실행 결과물 (지금 eval_results_*.json은 예시/결과물로 커밋했다면 유지,
+# 앞으로 로컬 실험용으로만 쓸 거면 아래 주석 해제)
+# eval_results_*.json
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# 로그
+*.log
