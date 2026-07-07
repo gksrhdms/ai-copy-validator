@@ -22,66 +22,17 @@ from sqlalchemy import text
 
 from app.db import session_scope
 
-# ⬇️⬇️⬇️ 여기를 기존 스크립트의 PERSONAS 내용으로 그대로 채우세요 ⬇️⬇️⬇️
+# ── 페르소나 정의 (8명) ─────────────────────────────────
 PERSONAS = [
-    {
-        "name": "가성비 대학생",
-        "demographic": "",       # 예: "20대 초반, 여"
-        "spending_type": "",     # 예: "가성비형"
-        "ad_literacy": "",       # 예: "냉소적 (광고를 잘 신뢰하지 않음)"
-        "channel": "",           # 예: "인스타 릴스"
-    },
-    {
-        "name": "트렌드 얼리어답터",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "프리미엄 지향 직장인",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "육아맘 실속파",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "보수적 소비 중년",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "얼리 시니어 온라인쇼퍼",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "Z세대 트렌드세터",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
-    {
-        "name": "실용주의 자영업자",
-        "demographic": "",
-        "spending_type": "",
-        "ad_literacy": "",
-        "channel": "",
-    },
+    {"id": 1, "name": "가성비 대학생", "demo": "20대 초반, 여", "spending": "가성비형", "ad_literacy": "냉소적 (광고를 잘 신뢰하지 않음)", "channel": "인스타 릴스"},
+    {"id": 2, "name": "트렌드 얼리어답터", "demo": "20대 후반, 성별무관", "spending": "트렌드추종형", "ad_literacy": "우호적 (신제품/신규 브랜드에 관심 많음)", "channel": "유튜브 숏폼"},
+    {"id": 3, "name": "프리미엄 지향 직장인", "demo": "30대 중반, 여", "spending": "프리미엄형", "ad_literacy": "중립적", "channel": "검색광고"},
+    {"id": 4, "name": "육아맘 실속파", "demo": "30대 후반, 여", "spending": "가성비형", "ad_literacy": "우호적 (정보성 광고 선호)", "channel": "인스타 릴스, 네이버 카페/블로그"},
+    {"id": 5, "name": "보수적 소비 중년", "demo": "40대 후반, 남", "spending": "프리미엄형 (브랜드 신뢰 중시)", "ad_literacy": "냉소적", "channel": "포털 배너"},
+    {"id": 6, "name": "얼리 시니어 온라인쇼퍼", "demo": "50대 초반, 여", "spending": "가성비형", "ad_literacy": "중립적 (최근 온라인쇼핑 입문)", "channel": "카카오톡 채널/배너"},
+    {"id": 7, "name": "Z세대 트렌드세터", "demo": "10대 후반~20대 초반", "spending": "트렌드추종형", "ad_literacy": "우호적이나 '광고 티' 나면 즉시 이탈", "channel": "틱톡/인스타 릴스"},
+    {"id": 8, "name": "실용주의 자영업자", "demo": "30~40대, 남", "spending": "가성비형 (ROI 민감)", "ad_literacy": "냉소적 (숫자/근거 없으면 무시)", "channel": "검색광고, 카카오톡비즈"},
 ]
-# ⬆️⬆️⬆️ 여기까지 ⬆️⬆️⬆️
 
 
 def seed():
