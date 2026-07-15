@@ -1,15 +1,6 @@
-# LLM 호출 (persona_eval_*.py에서 이미 사용 중)
-# 실제 코드의 import문과 패키지명이 다르면 이 줄만 맞춰서 바꾸세요
-# (예: google-generativeai vs google-genai)
 google-generativeai
-
-# 환경변수 관리
 python-dotenv
-
-# DB (Supabase = Postgres)
 sqlalchemy
 psycopg2-binary
-
-# 2주차: API 서버
 fastapi
 uvicorn[standard]
